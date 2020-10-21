@@ -1,0 +1,547 @@
+
+-------------------------------------------------------------
+FrodoKEM-640-AES
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM FrodoKEM-640-AES
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:50:56
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+FrodoKEM-640-AES               |            |                |                 |            |                           |           
+keygen                         |       7588 |          3.000 |         395.384 |     36.950 |                    787512 |      73578
+encaps                         |       4743 |          3.000 |         632.580 |     43.241 |                   1259976 |      86117
+decaps                         |       4933 |          3.000 |         608.201 |     34.912 |                   1211418 |      69527
+Ended at 2020-09-04 00:51:05
+-------------------------------------------------------------
+FrodoKEM-640-SHAKE
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM FrodoKEM-640-SHAKE
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:51:05
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+FrodoKEM-640-SHAKE             |            |                |                 |            |                           |           
+keygen                         |       1420 |          3.000 |        2112.872 |     97.133 |                   4208508 |     193447
+encaps                         |       1268 |          3.001 |        2366.438 |    130.957 |                   4713586 |     260846
+decaps                         |       1237 |          3.001 |        2426.321 |    121.352 |                   4832853 |     241699
+Ended at 2020-09-04 00:51:14
+-------------------------------------------------------------
+FrodoKEM-976-AES
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM FrodoKEM-976-AES
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:51:14
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+FrodoKEM-976-AES               |            |                |                 |            |                           |           
+keygen                         |       3574 |          3.001 |         839.582 |     48.766 |                   1672278 |      97119
+encaps                         |       2326 |          3.001 |        1290.154 |     57.240 |                   2569759 |     114002
+decaps                         |       2416 |          3.000 |        1241.776 |     52.442 |                   2473401 |     104449
+Ended at 2020-09-04 00:51:23
+-------------------------------------------------------------
+FrodoKEM-976-SHAKE
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM FrodoKEM-976-SHAKE
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:51:23
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+FrodoKEM-976-SHAKE             |            |                |                 |            |                           |           
+keygen                         |        643 |          3.005 |        4672.655 |    206.567 |                   9307210 |     411451
+encaps                         |        563 |          3.005 |        5336.917 |    282.071 |                  10630304 |     561832
+decaps                         |        561 |          3.002 |        5351.570 |    305.592 |                  10659516 |     608673
+Ended at 2020-09-04 00:51:32
+-------------------------------------------------------------
+FrodoKEM-1344-AES
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM FrodoKEM-1344-AES
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:51:32
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+FrodoKEM-1344-AES              |            |                |                 |            |                           |           
+keygen                         |       2062 |          3.001 |        1455.165 |     61.861 |                   2898420 |     123191
+encaps                         |       1323 |          3.002 |        2268.825 |     80.666 |                   4519108 |     160659
+decaps                         |       1342 |          3.001 |        2236.099 |     89.796 |                   4453934 |     178844
+Ended at 2020-09-04 00:51:41
+-------------------------------------------------------------
+FrodoKEM-1344-SHAKE
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM FrodoKEM-1344-SHAKE
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:51:41
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+FrodoKEM-1344-SHAKE            |            |                |                 |            |                           |           
+keygen                         |        355 |          3.000 |        8451.428 |    397.435 |                  16834028 |     791652
+encaps                         |        317 |          3.008 |        9489.073 |    488.735 |                  18900834 |     973494
+decaps                         |        316 |          3.004 |        9504.905 |    470.479 |                  18932383 |     937161
+Ended at 2020-09-04 00:51:50
+-------------------------------------------------------------
+NTRU-HPS-2048-509
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM NTRU-HPS-2048-509
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:51:50
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+NTRU-HPS-2048-509              |            |                |                 |            |                           |           
+keygen                         |        838 |          3.003 |        3583.408 |    237.231 |                   7137611 |     472500
+encaps                         |      15923 |          3.000 |         188.412 |     16.171 |                    375234 |      32185
+decaps                         |       6213 |          3.000 |         482.904 |     31.873 |                    961839 |      63476
+Ended at 2020-09-04 00:51:59
+-------------------------------------------------------------
+NTRU-HPS-2048-677
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM NTRU-HPS-2048-677
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:51:59
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+NTRU-HPS-2048-677              |            |                |                 |            |                           |           
+keygen                         |        485 |          3.005 |        6195.849 |    388.260 |                  12341188 |     773363
+encaps                         |       9383 |          3.000 |         319.752 |     29.747 |                    636835 |      59238
+decaps                         |       3513 |          3.001 |         854.172 |     62.614 |                   1701357 |     124721
+Ended at 2020-09-04 00:52:08
+-------------------------------------------------------------
+NTRU-HPS-4096-821
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM NTRU-HPS-4096-821
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:52:08
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+NTRU-HPS-4096-821              |            |                |                 |            |                           |           
+keygen                         |        334 |          3.001 |        8985.557 |    467.529 |                  17897906 |     931215
+encaps                         |       6774 |          3.000 |         442.873 |     38.310 |                    882082 |      76289
+decaps                         |       2473 |          3.000 |        1213.143 |     77.488 |                   2416368 |     154325
+Ended at 2020-09-04 00:52:17
+-------------------------------------------------------------
+NTRU-HRSS-701
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM NTRU-HRSS-701
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:52:17
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+NTRU-HRSS-701                  |            |                |                 |            |                           |           
+keygen                         |        475 |          3.001 |        6317.541 |    234.887 |                  12583606 |     467860
+encaps                         |       9792 |          3.000 |         306.396 |     25.924 |                    610228 |      51604
+decaps                         |       3330 |          3.001 |         901.150 |     73.845 |                   1794941 |     147061
+Ended at 2020-09-04 00:52:26
+-------------------------------------------------------------
+BIKE1-L1-CPA
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM BIKE1-L1-CPA
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:52:26
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+BIKE1-L1-CPA                   |            |                |                 |            |                           |           
+keygen                         |      32359 |          3.000 |          92.711 |     17.072 |                    184613 |      33996
+encaps                         |      26172 |          3.000 |         114.627 |      9.618 |                    228254 |      19129
+decaps                         |       2210 |          3.001 |        1358.058 |     44.952 |                   2704988 |      89531
+Ended at 2020-09-04 00:52:35
+-------------------------------------------------------------
+BIKE1-L3-CPA
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM BIKE1-L3-CPA
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:52:35
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+BIKE1-L3-CPA                   |            |                |                 |            |                           |           
+keygen                         |      10103 |          3.000 |         296.942 |     19.797 |                    591402 |      39400
+encaps                         |       8656 |          3.000 |         346.608 |     26.968 |                    690305 |      53702
+decaps                         |        585 |          3.001 |        5129.889 |    155.078 |                  10217941 |     308900
+Ended at 2020-09-04 00:52:44
+-------------------------------------------------------------
+BIKE1-L1-FO
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM BIKE1-L1-FO
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:52:44
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+BIKE1-L1-FO                    |            |                |                 |            |                           |           
+keygen                         |      24061 |          3.000 |         124.686 |     15.236 |                    248296 |      30327
+encaps                         |      20143 |          3.000 |         148.940 |     11.786 |                    296622 |      23448
+decaps                         |       1650 |          3.001 |        1819.077 |     65.312 |                   3623281 |     130056
+Ended at 2020-09-04 00:52:53
+-------------------------------------------------------------
+BIKE1-L3-FO
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for KEM BIKE1-L3-FO
+================================================================================
+shared secrets are equal
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:52:53
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+BIKE1-L3-FO                    |            |                |                 |            |                           |           
+keygen                         |       6760 |          3.000 |         443.849 |     36.458 |                    884038 |      72604
+encaps                         |       6042 |          3.000 |         496.572 |     23.359 |                    989041 |      46507
+decaps                         |        440 |          3.007 |        6834.100 |    371.198 |                  13612460 |     739319
+Ended at 2020-09-04 00:53:02

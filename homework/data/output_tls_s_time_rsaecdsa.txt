@@ -1,0 +1,46 @@
+------------------------------------------------------------------------
+RSA
+########################################################################
+9352 connections in 3.03s; 3086.47 connections/user sec, bytes read 0
+9352 connections in 11 real seconds, 0 bytes read per connection
+9956 connections in 3.07s; 3243.00 connections/user sec, bytes read 0
+9956 connections in 11 real seconds, 0 bytes read per connection
+9484 connections in 3.08s; 3079.22 connections/user sec, bytes read 0
+9484 connections in 11 real seconds, 0 bytes read per connection
+8519 connections in 2.97s; 2868.35 connections/user sec, bytes read 0
+8519 connections in 11 real seconds, 0 bytes read per connection
+9717 connections in 2.97s; 3271.72 connections/user sec, bytes read 0
+9717 connections in 11 real seconds, 0 bytes read per connection
+9858 connections in 2.96s; 3330.41 connections/user sec, bytes read 0
+9858 connections in 11 real seconds, 0 bytes read per connection
+9690 connections in 3.00s; 3230.00 connections/user sec, bytes read 0
+9690 connections in 11 real seconds, 0 bytes read per connection
+10028 connections in 3.09s; 3245.31 connections/user sec, bytes read 0
+10028 connections in 11 real seconds, 0 bytes read per connection
+9970 connections in 3.07s; 3247.56 connections/user sec, bytes read 0
+9970 connections in 11 real seconds, 0 bytes read per connection
+9836 connections in 3.08s; 3193.51 connections/user sec, bytes read 0
+9836 connections in 11 real seconds, 0 bytes read per connection
+------------------------------------------------------------------------
+ECDSA
+########################################################################
+4231 connections in 5.14s; 823.15 connections/user sec, bytes read 0
+4231 connections in 11 real seconds, 0 bytes read per connection
+3922 connections in 5.23s; 749.90 connections/user sec, bytes read 0
+3922 connections in 11 real seconds, 0 bytes read per connection
+4247 connections in 5.18s; 819.88 connections/user sec, bytes read 0
+4247 connections in 11 real seconds, 0 bytes read per connection
+4183 connections in 5.20s; 804.42 connections/user sec, bytes read 0
+4183 connections in 11 real seconds, 0 bytes read per connection
+4362 connections in 5.28s; 826.14 connections/user sec, bytes read 0
+4362 connections in 11 real seconds, 0 bytes read per connection
+4411 connections in 5.29s; 833.84 connections/user sec, bytes read 0
+4411 connections in 11 real seconds, 0 bytes read per connection
+3886 connections in 5.25s; 740.19 connections/user sec, bytes read 0
+3886 connections in 11 real seconds, 0 bytes read per connection
+4184 connections in 5.20s; 804.62 connections/user sec, bytes read 0
+4184 connections in 11 real seconds, 0 bytes read per connection
+4056 connections in 5.20s; 780.00 connections/user sec, bytes read 0
+4056 connections in 11 real seconds, 0 bytes read per connection
+3963 connections in 5.20s; 762.12 connections/user sec, bytes read 0
+3963 connections in 11 real seconds, 0 bytes read per connection

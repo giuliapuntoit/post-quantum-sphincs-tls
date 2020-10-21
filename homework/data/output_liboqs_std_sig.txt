@@ -1,0 +1,47 @@
+
+-------------------------------------------------------------
+RSA2048
+#############################################################
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000543s 0.000015s   1840.0  65894.8
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000512s 0.000015s   1953.4  66487.1
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000513s 0.000016s   1948.4  60924.2
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000538s 0.000016s   1857.2  62412.6
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000601s 0.000016s   1663.5  60663.0
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000515s 0.000016s   1942.5  64001.1
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000515s 0.000015s   1942.8  65649.2
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000530s 0.000016s   1887.5  64458.7
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000547s 0.000016s   1827.2  64208.9
+                  sign    verify    sign/s verify/s
+rsa 2048 bits 0.000514s 0.000015s   1947.2  65116.4
+-------------------------------------------------------------
+ECDSA nistp384
+#############################################################
+                              sign    verify    sign/s verify/s
+ 384 bits ecdsa (nistp384)   0.0008s   0.0007s   1241.4   1450.3
+                              sign    verify    sign/s verify/s
+ 384 bits ecdsa (nistp384)   0.0008s   0.0008s   1230.1   1321.8
+                              sign    verify    sign/s verify/s
+ 384 bits ecdsa (nistp384)   0.0011s   0.0009s    930.5   1134.8
+                              sign    verify    sign/s verify/s
+ 384 bits ecdsa (nistp384)   0.0011s   0.0009s    893.9   1127.7
+                              sign    verify    sign/s verify/s
+ 384 bits ecdsa (nistp384)   0.0011s   0.0009s    933.6   1130.5
+                              sign    verify    sign/s verify/s
+ 384 bits ecdsa (nistp384)   0.0011s   0.0009s    931.0   1155.9
+                              sign    verify    sign/s verify/s
+ 384 bits ecdsa (nistp384)   0.0011s   0.0009s    916.9   1161.4
+                              sign    verify    sign/s verify/s
+ 384 bits ecdsa (nistp384)   0.0010s   0.0009s    959.0   1168.6
+                              sign    verify    sign/s verify/s
+ 384 bits ecdsa (nistp384)   0.0010s   0.0009s    954.4   1138.6
+                              sign    verify    sign/s verify/s
+ 384 bits ecdsa (nistp384)   0.0010s   0.0009s    952.7   1151.9

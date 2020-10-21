@@ -1,0 +1,1405 @@
+
+-------------------------------------------------------------
+SPHINCS+-Haraka-128f-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-Haraka-128f-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:45:08
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-Haraka-128f-robust    |            |                |                 |            |                           |           
+keypair                        |       9393 |          3.000 |         319.390 |     62.888 |                    636257 |     125246
+sign                           |        266 |          3.007 |       11304.436 |   1012.892 |                  22521933 |    2017924
+verify                         |       6469 |          3.000 |         463.758 |     50.551 |                    923901 |     100698
+Ended at 2020-09-04 00:45:17
+-------------------------------------------------------------
+SPHINCS+-Haraka-128f-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-Haraka-128f-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:45:17
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-Haraka-128f-simple    |            |                |                 |            |                           |           
+keypair                        |      14452 |          3.000 |         207.596 |     33.427 |                    413537 |      66575
+sign                           |        436 |          3.001 |        6883.170 |    305.369 |                  13713216 |     608375
+verify                         |      10311 |          3.000 |         290.954 |     32.361 |                    579597 |      64442
+Ended at 2020-09-04 00:45:26
+-------------------------------------------------------------
+SPHINCS+-Haraka-128s-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-Haraka-128s-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:45:27
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-Haraka-128s-robust    |            |                |                 |            |                           |           
+keypair                        |        315 |          3.009 |        9551.156 |    523.170 |                  19028377 |    1042231
+sign                           |         17 |          3.002 |      176612.471 |   2457.744 |                 351857853 |    4896779
+verify                         |      16169 |          3.000 |         185.542 |     23.173 |                    369601 |      46156
+Ended at 2020-09-04 00:45:36
+-------------------------------------------------------------
+SPHINCS+-Haraka-128s-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-Haraka-128s-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:45:36
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-Haraka-128s-simple    |            |                |                 |            |                           |           
+keypair                        |        318 |          3.008 |        9458.289 |    548.771 |                  18843121 |    1093275
+sign                           |         18 |          3.127 |      173716.278 |   9648.148 |                 346082806 |   19221181
+verify                         |      16804 |          3.000 |         178.531 |     25.679 |                    355625 |      51128
+Ended at 2020-09-04 00:45:45
+-------------------------------------------------------------
+SPHINCS+-Haraka-192f-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-Haraka-192f-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:45:45
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-Haraka-192f-robust    |            |                |                 |            |                           |           
+keypair                        |       6575 |          3.000 |         456.296 |     64.172 |                    908985 |     127815
+sign                           |        238 |          3.012 |       12655.210 |    547.850 |                  25211598 |    1091393
+verify                         |       4175 |          3.000 |         718.680 |     66.379 |                   1431676 |     132206
+Ended at 2020-09-04 00:45:54
+-------------------------------------------------------------
+SPHINCS+-Haraka-192f-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-Haraka-192f-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:45:54
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-Haraka-192f-simple    |            |                |                 |            |                           |           
+keypair                        |       8998 |          3.000 |         333.425 |     44.106 |                    664179 |      87854
+sign                           |        315 |          3.005 |        9540.200 |    664.794 |                  19005663 |    1324363
+verify                         |       6249 |          3.000 |         480.079 |     55.410 |                    956343 |     110372
+Ended at 2020-09-04 00:46:03
+-------------------------------------------------------------
+SPHINCS+-Haraka-192s-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-Haraka-192s-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:46:03
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-Haraka-192s-robust    |            |                |                 |            |                           |           
+keypair                        |        248 |          3.005 |       12118.754 |   1475.196 |                  24142351 |    2938802
+sign                           |          9 |          3.145 |      349399.111 |   4421.130 |                 696052722 |    8813119
+verify                         |      10772 |          3.000 |         278.501 |     39.199 |                    554752 |      78056
+Ended at 2020-09-04 00:46:13
+-------------------------------------------------------------
+SPHINCS+-Haraka-192s-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-Haraka-192s-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:46:13
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-Haraka-192s-simple    |            |                |                 |            |                           |           
+keypair                        |        269 |          3.007 |       11179.532 |    674.956 |                  22271034 |    1344460
+sign                           |         11 |          3.268 |      297045.545 |   5624.161 |                 591754110 |   11203954
+verify                         |      15423 |          3.000 |         194.515 |     24.118 |                    387442 |      48034
+Ended at 2020-09-04 00:46:22
+-------------------------------------------------------------
+SPHINCS+-Haraka-256f-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-Haraka-256f-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:46:22
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-Haraka-256f-robust    |            |                |                 |            |                           |           
+keypair                        |       2852 |          3.001 |        1052.169 |    103.334 |                   2095970 |     205819
+sign                           |        109 |          3.016 |       27665.725 |   1438.690 |                  55113133 |    2866104
+verify                         |       4470 |          3.000 |         671.170 |     73.396 |                   1336964 |     146162
+Ended at 2020-09-04 00:46:31
+-------------------------------------------------------------
+SPHINCS+-Haraka-256f-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-Haraka-256f-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:46:31
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-Haraka-256f-simple    |            |                |                 |            |                           |           
+keypair                        |       2935 |          3.001 |        1022.385 |     95.409 |                   2036622 |     190046
+sign                           |        117 |          3.013 |       25756.171 |   1334.846 |                  51308625 |    2659100
+verify                         |       5271 |          3.000 |         569.188 |     64.773 |                   1133812 |     129038
+Ended at 2020-09-04 00:46:40
+-------------------------------------------------------------
+SPHINCS+-Haraka-256s-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-Haraka-256s-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:46:41
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-Haraka-256s-robust    |            |                |                 |            |                           |           
+keypair                        |        164 |          3.005 |       18321.829 |   2122.800 |                  36498422 |    4228733
+sign                           |         12 |          3.250 |      270804.417 |  31970.423 |                 539462904 |   63688071
+verify                         |       7954 |          3.000 |         377.204 |     45.589 |                    751357 |      90795
+Ended at 2020-09-04 00:46:50
+-------------------------------------------------------------
+SPHINCS+-Haraka-256s-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-Haraka-256s-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:46:50
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-Haraka-256s-simple    |            |                |                 |            |                           |           
+keypair                        |        210 |          3.008 |       14325.743 |    849.457 |                  28537646 |    1692180
+sign                           |         16 |          3.116 |      194722.750 |   2601.592 |                 387899340 |    5182342
+verify                         |      11169 |          3.000 |         268.601 |     27.507 |                    534997 |      54770
+Ended at 2020-09-04 00:46:59
+-------------------------------------------------------------
+SPHINCS+-SHA256-128f-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHA256-128f-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:46:59
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHA256-128f-robust    |            |                |                 |            |                           |           
+keypair                        |       3439 |          3.000 |         872.378 |    115.848 |                   1737768 |     230748
+sign                           |        106 |          3.021 |       28504.302 |   1013.248 |                  56781741 |    2018276
+verify                         |        790 |          3.001 |        3799.024 |    355.573 |                   7567760 |     708309
+Ended at 2020-09-04 00:47:08
+-------------------------------------------------------------
+SPHINCS+-SHA256-128f-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHA256-128f-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:47:08
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHA256-128f-simple    |            |                |                 |            |                           |           
+keypair                        |       6364 |          3.000 |         471.402 |     41.270 |                    939006 |      82183
+sign                           |        191 |          3.012 |       15769.251 |    356.356 |                  31412798 |     709820
+verify                         |       1535 |          3.002 |        1955.549 |    151.172 |                   3895471 |     301126
+Ended at 2020-09-04 00:47:17
+-------------------------------------------------------------
+SPHINCS+-SHA256-128s-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHA256-128s-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:47:18
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHA256-128s-robust    |            |                |                 |            |                           |           
+keypair                        |        102 |          3.001 |       29420.431 |   3125.711 |                  58606016 |    6226508
+sign                           |          7 |          3.411 |      487240.857 |   9512.680 |                 970592036 |   18949259
+verify                         |       1955 |          3.000 |        1534.767 |    116.097 |                   3057228 |     231242
+Ended at 2020-09-04 00:47:27
+-------------------------------------------------------------
+SPHINCS+-SHA256-128s-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHA256-128s-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:47:27
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHA256-128s-simple    |            |                |                 |            |                           |           
+keypair                        |        193 |          3.011 |       15601.513 |    521.557 |                  31078240 |    1038810
+sign                           |         11 |          3.027 |      275153.818 |   4944.238 |                 548107424 |    9848995
+verify                         |       3723 |          3.001 |         806.004 |     85.589 |                   1605523 |     170460
+Ended at 2020-09-04 00:47:37
+-------------------------------------------------------------
+SPHINCS+-SHA256-192f-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHA256-192f-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:47:37
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHA256-192f-robust    |            |                |                 |            |                           |           
+keypair                        |       2342 |          3.001 |        1281.229 |    122.092 |                   2552162 |     243194
+sign                           |         76 |          3.007 |       39564.132 |    815.476 |                  78811424 |    1624388
+verify                         |        484 |          3.004 |        6206.537 |    424.424 |                  12363286 |     845398
+Ended at 2020-09-04 00:47:46
+-------------------------------------------------------------
+SPHINCS+-SHA256-192f-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHA256-192f-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:47:46
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHA256-192f-simple    |            |                |                 |            |                           |           
+keypair                        |       4209 |          3.001 |         712.877 |     64.193 |                   1419991 |     127859
+sign                           |        134 |          3.021 |       22546.194 |   1094.580 |                  44911530 |    2180347
+verify                         |        958 |          3.001 |        3132.662 |    251.756 |                   6240178 |     501460
+Ended at 2020-09-04 00:47:55
+-------------------------------------------------------------
+SPHINCS+-SHA256-192s-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHA256-192s-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:47:56
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHA256-192s-robust    |            |                |                 |            |                           |           
+keypair                        |         72 |          3.008 |       41783.292 |    639.685 |                  83231187 |    1274228
+sign                           |          4 |          3.728 |      931959.000 |  13369.070 |                1856436020 |   26631221
+verify                         |       1265 |          3.002 |        2372.914 |    218.556 |                   4726713 |     435335
+Ended at 2020-09-04 00:48:05
+-------------------------------------------------------------
+SPHINCS+-SHA256-192s-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHA256-192s-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:48:06
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHA256-192s-simple    |            |                |                 |            |                           |           
+keypair                        |        136 |          3.003 |       22080.728 |    802.796 |                  43984005 |    1599236
+sign                           |          6 |          3.205 |      534154.333 |  11701.881 |                1064015275 |   23309856
+verify                         |       2378 |          3.000 |        1261.624 |    130.092 |                   2513060 |     259126
+Ended at 2020-09-04 00:48:15
+-------------------------------------------------------------
+SPHINCS+-SHA256-256f-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHA256-256f-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:48:15
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHA256-256f-robust    |            |                |                 |            |                           |           
+keypair                        |        491 |          3.002 |        6113.387 |    404.565 |                  12177535 |     805830
+sign                           |         22 |          3.083 |      140130.364 |   2985.815 |                 279133058 |    5947291
+verify                         |        383 |          3.006 |        7848.360 |    443.873 |                  15633471 |     884125
+Ended at 2020-09-04 00:48:24
+-------------------------------------------------------------
+SPHINCS+-SHA256-256f-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHA256-256f-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:48:24
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHA256-256f-simple    |            |                |                 |            |                           |           
+keypair                        |       1618 |          3.002 |        1855.090 |    108.324 |                   3695206 |     215770
+sign                           |         65 |          3.038 |       46740.231 |   1425.725 |                  93103971 |    2839997
+verify                         |        974 |          3.003 |        3083.003 |    185.301 |                   6141093 |     369107
+Ended at 2020-09-04 00:48:33
+-------------------------------------------------------------
+SPHINCS+-SHA256-256s-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHA256-256s-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:48:35
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHA256-256s-robust    |            |                |                 |            |                           |           
+keypair                        |         33 |          3.092 |       93692.303 |   1265.956 |                 186629219 |    2521312
+sign                           |          3 |          3.272 |     1090819.000 |   4594.106 |                2172843119 |    9150617
+verify                         |        753 |          3.001 |        3986.020 |    134.423 |                   7939839 |     267793
+Ended at 2020-09-04 00:48:44
+-------------------------------------------------------------
+SPHINCS+-SHA256-256s-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHA256-256s-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:48:44
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHA256-256s-simple    |            |                |                 |            |                           |           
+keypair                        |        112 |          3.014 |       26911.652 |    580.338 |                  53606129 |    1156179
+sign                           |          9 |          3.071 |      341204.889 |   1358.493 |                 679656512 |    2705573
+verify                         |       1986 |          3.001 |        1511.216 |    106.410 |                   3010186 |     211929
+Ended at 2020-09-04 00:48:54
+-------------------------------------------------------------
+SPHINCS+-SHAKE256-128f-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHAKE256-128f-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:48:54
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHAKE256-128f-robust  |            |                |                 |            |                           |           
+keypair                        |       1264 |          3.000 |        2373.648 |    130.052 |                   4728091 |     259028
+sign                           |         41 |          3.045 |       74271.220 |   1578.404 |                 147942677 |    3143935
+verify                         |        530 |          3.005 |        5669.040 |    378.710 |                  11292241 |     754340
+Ended at 2020-09-04 00:49:03
+-------------------------------------------------------------
+SPHINCS+-SHAKE256-128f-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHAKE256-128f-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:49:03
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHAKE256-128f-simple  |            |                |                 |            |                           |           
+keypair                        |       2420 |          3.001 |        1239.951 |     78.378 |                   2469842 |     156100
+sign                           |         74 |          3.034 |       40994.986 |    740.197 |                  81658615 |    1474422
+verify                         |       1037 |          3.002 |        2894.539 |    201.180 |                   5765621 |     400702
+Ended at 2020-09-04 00:49:12
+-------------------------------------------------------------
+SPHINCS+-SHAKE256-128s-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHAKE256-128s-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:49:13
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHAKE256-128s-robust  |            |                |                 |            |                           |           
+keypair                        |         41 |          3.013 |       73480.488 |    855.702 |                 146366834 |    1704451
+sign                           |          3 |          3.289 |     1096187.000 |   3392.155 |                2183508679 |    6757490
+verify                         |       1338 |          3.001 |        2242.969 |    116.957 |                   4467727 |     232965
+Ended at 2020-09-04 00:49:22
+-------------------------------------------------------------
+SPHINCS+-SHAKE256-128s-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHAKE256-128s-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:49:23
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHAKE256-128s-simple  |            |                |                 |            |                           |           
+keypair                        |         73 |          3.019 |       41357.795 |    948.668 |                  82380845 |    1889495
+sign                           |          5 |          3.333 |      666512.600 |   1787.571 |                1327631348 |    3560106
+verify                         |       2407 |          3.001 |        1246.879 |    113.396 |                   2483615 |     225851
+Ended at 2020-09-04 00:49:32
+-------------------------------------------------------------
+SPHINCS+-SHAKE256-192f-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHAKE256-192f-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:49:32
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHAKE256-192f-robust  |            |                |                 |            |                           |           
+keypair                        |        890 |          3.001 |        3372.197 |    159.767 |                   6717024 |     318214
+sign                           |         32 |          3.033 |       94792.219 |    824.336 |                 188816881 |    1642025
+verify                         |        340 |          3.001 |        8827.674 |    299.594 |                  17583774 |     596824
+Ended at 2020-09-04 00:49:41
+-------------------------------------------------------------
+SPHINCS+-SHAKE256-192f-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHAKE256-192f-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:49:41
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHAKE256-192f-simple  |            |                |                 |            |                           |           
+keypair                        |       1601 |          3.001 |        1874.268 |     69.426 |                   3733294 |     138276
+sign                           |         56 |          3.021 |       53950.607 |    986.731 |                 107464024 |    1965358
+verify                         |        610 |          3.003 |        4922.921 |    277.582 |                   9805833 |     552916
+Ended at 2020-09-04 00:49:51
+-------------------------------------------------------------
+SPHINCS+-SHAKE256-192s-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHAKE256-192s-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:49:53
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHAKE256-192s-robust  |            |                |                 |            |                           |           
+keypair                        |         28 |          3.026 |      108071.643 |   1829.406 |                 215267129 |    3643902
+sign                           |          2 |          4.523 |     2261574.500 |      0.000 |                 209848696 |          0
+verify                         |        869 |          3.001 |        3453.312 |    193.412 |                   6878552 |     385241
+Ended at 2020-09-04 00:50:03
+-------------------------------------------------------------
+SPHINCS+-SHAKE256-192s-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHAKE256-192s-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:50:05
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHAKE256-192s-simple  |            |                |                 |            |                           |           
+keypair                        |         50 |          3.058 |       61159.160 |   1622.832 |                 121822158 |    3232378
+sign                           |          3 |          4.210 |     1403384.333 |  31186.551 |                2795386420 |   62118260
+verify                         |       1644 |          3.001 |        1825.647 |    187.522 |                   3636415 |     373470
+Ended at 2020-09-04 00:50:15
+-------------------------------------------------------------
+SPHINCS+-SHAKE256-256f-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHAKE256-256f-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:50:15
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHAKE256-256f-robust  |            |                |                 |            |                           |           
+keypair                        |        343 |          3.001 |        8748.073 |    249.793 |                  17425096 |     497445
+sign                           |         16 |          3.180 |      198778.500 |   2603.019 |                 395943928 |    5184903
+verify                         |        324 |          3.009 |        9288.191 |    377.890 |                  18500955 |     752692
+Ended at 2020-09-04 00:50:25
+-------------------------------------------------------------
+SPHINCS+-SHAKE256-256f-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHAKE256-256f-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:50:25
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHAKE256-256f-simple  |            |                |                 |            |                           |           
+keypair                        |        636 |          3.001 |        4718.769 |    174.464 |                   9399183 |     347546
+sign                           |         28 |          3.103 |      110819.321 |   1479.841 |                 220739008 |    2947572
+verify                         |        626 |          3.002 |        4794.890 |    173.367 |                   9550794 |     345292
+Ended at 2020-09-04 00:50:34
+-------------------------------------------------------------
+SPHINCS+-SHAKE256-256s-robust
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHAKE256-256s-robust
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:50:36
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHAKE256-256s-robust  |            |                |                 |            |                           |           
+keypair                        |         22 |          3.030 |      137731.636 |   2583.096 |                 274344795 |    5145656
+sign                           |          2 |          3.210 |     1605038.500 |      0.000 |                3197042688 |          0
+verify                         |        654 |          3.000 |        4587.197 |    167.666 |                   9137065 |     333953
+Ended at 2020-09-04 00:50:45
+-------------------------------------------------------------
+SPHINCS+-SHAKE256-256s-simple
+#############################################################
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+================================================================================
+Sample computation for signature SPHINCS+-SHAKE256-256s-simple
+================================================================================
+verification passes as expected
+Configuration info
+==================
+Target platform:  x86_64-Linux-4.15.0-115-generic
+Compiler:         gcc (7.5.0)
+OQS version:      0.4.0
+Git commit:       4d0325518e0b29bfc8911e2ef01ee24507df565c
+OpenSSL enabled:  Yes (OpenSSL 1.1.1g  21 Apr 2020)
+AES:              OpenSSL
+SHA-2:            OpenSSL
+SHA-3:            OpenSSL
+
+Speed test
+==========
+Started at 2020-09-04 00:50:46
+Operation                      | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+SPHINCS+-SHAKE256-256s-simple  |            |                |                 |            |                           |           
+keypair                        |         40 |          3.041 |       76034.725 |    836.780 |                 151451584 |    1666783
+sign                           |          4 |          3.741 |      935142.750 |   3559.557 |                1862688095 |    7090385
+verify                         |       1289 |          3.002 |        2329.002 |    170.755 |                   4639025 |     340098
+Ended at 2020-09-04 00:50:56
